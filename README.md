@@ -16,9 +16,10 @@
 
 ## Overview
 <p align="justify">
-This project extends the Catan simulator from Assignment 2 to incorporate design patterns and simple machine intelligence. Three design patterns were identified, introduced into the UML design, and implemented in the codebase. An undo/redo system was added for the human player using the Command pattern, and a rule-based AI agent was designed using the Strategy pattern. The Observer pattern was introduced to decouple the Visualizer from the game loop. All changes were driven by the existing UML class diagram and validated through the demonstrator.
+This project is a Java-based simulator for Settlers of Catan that models the core game elements, including the board, players, resources, roads, settlements, cities, dice rolls, turns, robber behavior, resource production, and victory point tracking. The simulator follows the rules specified in the course rulebook and uses object-oriented design principles such as abstraction, encapsulation, inheritance, polymorphism, clear class responsibilities, SOLID principles, and other OO mechanisms to organize the game logic.
 
-R3.3 is handled first via a chain of responsibility: if a constraint applies and can be resolved (e.g. a build succeeds), that ends the constraint phase; otherwise the bot uses R3.2’s evaluation-based rules to choose an action.
+The simulator was extended to include boundary and partition test cases, which were run using JUnit to validate core gameplay behavior such as board limits, dice roll ranges, resource handling, and building logic. It was also improved with several design-pattern features: the Command pattern for human-player commands and undo/redo, the Strategy pattern for a rule-based AI agent, an observer-style visualizer that exports board state to JSON, and a Chain of Responsibility flow for handling priority AI constraints before normal strategy selection. SonarQube was also used to support code quality analysis and identify maintainability issues.
+
 </p>
 
 ---
