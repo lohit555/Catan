@@ -1,3 +1,5 @@
+# Catan - Board Game Simulator with AI Agent
+
 [![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-dark.svg)](https://sonarcloud.io/summary/new_code?id=MohitGedela_Team19-Catan-V3)
 
 **Course:** SFWRENG 2AA4: Software Design I  
